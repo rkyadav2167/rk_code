@@ -1,0 +1,12 @@
+rows=int(input())
+colum=int (input())
+matrix=[]
+for i in range(rows):
+    row=[]
+    for j in range(colum):
+        row.append(int (input()))
+    matrix.append(row)
+print(matrix)
+import math
+b=math.acosh(20)
+print(b)
